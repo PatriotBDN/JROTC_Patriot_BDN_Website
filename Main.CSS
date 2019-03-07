@@ -1,0 +1,175 @@
+/*Color Pallet used: http://paletton.com/#uid=33v0u0kkq++7D+WeP+ZpR+Ww9ZI */
+/*
+Yellow - #FFCB05
+Black - #000000
+Greys - http://paletton.com/#uid=11A0u0k3uaq2SmR3dgL6a3Yf24I
+Yellows - http://paletton.com/#uid=11Q0u0kEOsRoyDfwsCYH+nlMVhQ
+*/
+
+body {
+  background-color: #53524A;
+  color: #333333;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+h1{
+color: #0F9EFB;
+padding-top: 22px;
+text-align: center;
+font-size: 42px;
+font-family: 'Oxygen';
+}
+
+/*Navbar as a whole*/
+.navbar {
+  background-color: #000000;
+  border-color: #FFCB05;
+  border-style: solid;
+  border-width: medium;
+  box-shadow: 0px 0px 20px #C89E00;
+}
+
+/*Links only*/
+.navbar a {
+  color: #FFCB05;
+  padding: 10px 32px;
+  font-family: 'Anton';
+  font-weight: bold;
+}
+/*Bc is the color when hovered over set color is the text color*/
+.navbar a:hover {
+  background-color: #53524A;
+  border-radius: 0.25em;
+}
+
+.navbar-brand a:active{
+  color: #FFCB05;
+}
+
+/*For the smaller devices*/
+.navbar-menu.menu-shown {
+      background-color: #000000;
+    }
+
+    .menu-toggle {
+      color: #FFCB05;
+    }
+
+    .menu-dismiss {
+      color: #0000;
+    }
+
+    .menu-shown a:link,
+    .menu-shown a:visited {
+      color: #FFCB05;
+      font-family: 'Anton';
+      font-weight: bold;
+
+    }
+
+    .menu-shown a:active,
+    .menu-shown a:hover {
+      background-color: #53524A;
+      color: #FFCB05;
+      border-radius: 1em;
+    }
+
+
+.bbackground {
+  border-radius: 1em;
+  padding: 10px;
+  background-color: #000000;
+  box-shadow: 0px 4px 6px #FFCB05;
+}
+
+.Middle-Third {
+  padding: 10px;
+  border-radius: 1em;
+  background-color: #FF865C;
+  box-shadow: 0px 4px 6px #333;
+}
+
+.Right-Third {
+  border-radius: 1em;
+  padding: 10px;
+  background-color: #FF865C;
+  box-shadow: 0px 4px 6px #333;
+}
+.middle_row {
+  border-radius: 1em;
+  padding: 10px;
+  background-color: #FF865C;
+  box-shadow: 0px 4px 6px #333;
+}
+
+.middle_row_JtP {
+  border-radius: 1em;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #FF865C;
+  box-shadow: 0px 4px 6px #333;
+}
+
+h2{
+  color: #90D3FF;
+  text-shadow: 0px 2px 10px #000000;
+  text-align: center;
+  font-size: 36px;
+  font-family: 'Fjalla One';
+}
+
+h3{
+  padding-top: 10px;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Anton';
+}
+
+p{
+  color: #FFFFFF;
+text-align: left;
+padding-left: 10px;
+padding-right: 10px;
+font-family: 'Chakra Petch';
+}
+ul{
+  color: #FFFFFF;
+  font-family: 'Chakra Petch';
+
+}
+ol{
+  color: #FFFFFF;
+  font-family: 'Chakra Petch';
+  list-style: none;
+  text-align: center;
+  margin-right: 10px;
+}
+img{
+  max-width: 100%;
+  margin-bottom: 5px;
+}
+img.center {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2px;
+}
+ul.center{
+  color: #FFFFFF;
+  font-family: 'Chakra Petch';
+  list-style: none;
+  text-align: center;
+  line-height: 55px;
+}
+p.center{
+  color: #FFFFFF;
+text-align: center;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 5px;
+padding-bottom: 10px;
+font-family: 'Chakra Petch';
+}
